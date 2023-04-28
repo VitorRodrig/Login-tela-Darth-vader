@@ -1,0 +1,116 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label, input{
+    display: block;
+}
+
+div.screen{
+    display: flex;
+    height: 100vh;
+}
+
+div.left{
+    flex: 1;
+    box-shadow: 1px 1px 10px #000;
+}
+
+div.right{
+    width: 400px;
+    background-color: #151517;
+}
+
+.father-title{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.right .title{
+    color:#f2fa0f;
+    font-weight: bold;
+    font-size: 1.5em;
+    max-width: 250px;
+    display: flex;
+}
+
+div.login-area{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.login-area{
+    padding: 50px;
+    width: 100%;
+}
+
+div.login-area label{
+    color: #ccc;
+}
+
+.login-area input{
+    width: 350px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: #f2fa0f;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    text-decoration: underline;
+    color: #f00;
+}
+
+.cadaster{
+    color: #ccc;
+    text-align: center;
+}
+
